@@ -7,31 +7,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Styles Conference</title>
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,500,600,700">
 </head>
 
 <body>
 
 	<!-- Header -->
 
-	<header class="primary-header container group">
+	<header class="primary-header">
+		<div class="container group">
 
-		<h1 class="logo">
-			<a href="index.html">Styles <br> Conference</a>
-		</h1>
+			<h1 class="logo">
+				<a href="index.html">Styles Conference</a>
+			</h1>
 
-		<h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+			<h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
 
-		<nav class="nav primary-nav">
-			<ul>
-				<li><a href="index.html">Home</a></li><!--
-				--><li><a href="speakers.html">Speakers</a></li><!--
-				--><li><a href="schedule.html">Schedule</a></li><!--
-				--><li><a href="venue.html">Venue</a></li><!--
-				--><li><a href="register.html">Register</a></li>
-			</ul>
-		</nav>
+			<nav class="nav primary-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li><!--
+					--><li><a href="speakers.html">Speakers</a></li><!--
+					--><li><a href="schedule.html">Schedule</a></li><!--
+					--><li><a href="venue.html">Venue</a></li><!--
+					--><li><a href="register.html">Register</a></li>
+				</ul>
+			</nav>
 
+		</div>
 	</header>
 
 	<!-- Lead -->
@@ -41,7 +43,7 @@
 
 			<h1>Register</h1>
 
-			<p>Every year we aim to have an unbelievable time, and this year we&#8217;d love it for you to join us. Conference passes only cost $99, one of the best values you&#8217;ll find.</p>
+			<p>Every year we aim to have an unbelievable time, and this year we&#8217;d love it for you to join us. Conference passes only cost $99.00, one of the best values you&#8217;ll find.</p>
 
 		</div>
 	</section>
@@ -53,10 +55,10 @@
 
 			<!-- Details -->
 
-			<section class="col-2-3">
+			<section class="details col-2-3">
 
 				<h2>Purchase a Conference Pass</h2>
-				<h5>$99 per Pass</h5>
+				<h5>$99.00 per Pass</h5>
 
 				<p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
 
@@ -87,16 +89,28 @@
 						<input type="email" name="email" placeholder="Email address" required>
 					</label>
 
-					<label>
-						Number of Passes
-						<select name="quantity" required>
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						</select>
-					</label>
+					<label>Number of Passes</label>
+					<br>
+					<div class="register-btn">
+						<input id="radio-1" type="radio" name="radio" value="1" checked>
+						<label for="radio-1">1</label>
+					</div>
+					<div class="register-btn">
+						<input id="radio-2" type="radio" name="radio" value="2">
+						<label for="radio-2">2</label>
+					</div>
+					<div class="register-btn">
+						<input id="radio-3" type="radio" name="radio" value="3">
+						<label for="radio-3">3</label>
+					</div>
+					<div class="register-btn">
+						<input id="radio-4" type="radio" name="radio" value="4">
+						<label for="radio-4">4</label>
+					</div>
+					<div class="register-btn">
+						<input id="radio-5" type="radio" name="radio" value="5">
+						<label for="radio-5">5</label>
+					</div>
  
 					<label>
 						Comments
@@ -116,7 +130,7 @@
 
 	<footer class="primary-footer container group">
 
-		<small>&copy; Styles Conference</small>
+		<small>Copyright &copy; 2022 Styles Conference. All rights reserved.</small>
 
 		<nav class="nav">
 			<ul>
